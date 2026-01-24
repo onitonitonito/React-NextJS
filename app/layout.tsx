@@ -23,12 +23,12 @@ export default function RootLayout({
       <body className={inter.className}>
         <nav className="bg-white p-4 shadow">
           <div className="container mx-auto flex justify-between items-center">
-            <Link href="/" className="text-xl font-bold">Fresh Mart</Link>
+            <Link href="/" className="text-xl font-bold">🍅Fresh Mart</Link>
             <div className="flex space-x-4">
-              <Link href="/" className="hover:text-blue-600">홈</Link>
-              <Link href="/list" className="hover:text-blue-600">상품 목록</Link>
-              <Link href="#" className="hover:text-blue-600">장바구니</Link>
-              <Link href="#" className="hover:text-blue-600">마이페이지</Link>
+              <Link href="/" className="hover:text-blue-600">🏡홈</Link>
+              <Link href="/list" className="hover:text-blue-600">🛒상품 목록</Link>
+              <Link href="#" className="hover:text-blue-600">🛒장바구니</Link>
+              <Link href="#" className="hover:text-blue-600">👤마이페이지</Link>
             </div>
           </div>
         </nav>
